@@ -447,7 +447,7 @@ public class ESPProvisionManager {
 
                     @Override
                     public void scanStartFailed() {
-                        listener.onFailure(new RuntimeException("Please turn on bluetooth and try again."));
+                        listener.onFailure(new RuntimeException("Por favor encienda el Bluetooth para encontrar el interruptor."));
                     }
 
                     @Override
