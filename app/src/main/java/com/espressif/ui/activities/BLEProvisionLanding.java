@@ -420,7 +420,7 @@ public class BLEProvisionLanding extends AppCompatActivity {
 
         @Override
         public void scanStartFailed() {
-            Toast.makeText(BLEProvisionLanding.this, "Please turn on Bluetooth to connect BLE device", Toast.LENGTH_SHORT).show();
+            Toast.makeText(BLEProvisionLanding.this, "Por favor habilitar el Bluetooth para encontrar el interruptor", Toast.LENGTH_SHORT).show();
         }
 
         @Override
